@@ -22,3 +22,20 @@ int main(int argc, char *argv[]) {
 }
 
 #2
+import random
+s = []
+p = []
+n = []
+q = int(input("Введите кол-во чисел: "))
+for i in range (q):
+	k = int(random.random() * 100 - 50)
+	s.append(k)
+for i in range(q):
+	if (s[i] > 0):
+		p.append(s[i])
+	elif (s[i] < 0):
+		n.append(s[i])		
+print (p)
+print(n)
+
+#3
