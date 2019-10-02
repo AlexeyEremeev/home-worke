@@ -1,0 +1,23 @@
+#1
+class f:
+	a = 0
+	b = 0
+	
+	def cout(self):
+		print("A: ", self.a)
+		print("B: ", self.b)
+	
+	def summa(self):
+		print(self.a + self.b)
+	
+	def maxx(self):
+		print(max(self.a, self.b))
+		
+ab = f()
+ab.a = int(input())
+ab.b = int(input())
+ab.cout()
+ab.summa()
+ab.maxx()
+
+#2
